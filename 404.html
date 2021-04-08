@@ -24,6 +24,7 @@
 
       function redirect() {
         var location = window.location;
+        alert(location.pathname);
         var issueNumber = location.pathname.split("/")[
           PATH_SEGMENTS_TO_SKIP + 1
         ];
